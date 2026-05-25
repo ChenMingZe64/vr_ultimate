@@ -1,8 +1,7 @@
 import type { PanoramaScene } from "@/types/panorama";
 
-/** 测试用全景图（Three.js 官方示例图，替换为真实校园全景） */
-const DEMO_PANO =
-  "https://threejs.org/examples/textures/2294472375_24a3b8ef46_o.jpg";
+/** 本地全景图（替换为真实校园全景） */
+const DEMO_PANO = "/panoramas/test.jpg";
 
 export const MOCK_SCENES: PanoramaScene[] = [
   {

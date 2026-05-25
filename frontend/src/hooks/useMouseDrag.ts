@@ -39,7 +39,7 @@ export function useMouseDrag({ onRotate, sensitivity = 0.3 }: UseMouseDragOption
       state.current.startX = e.clientX;
       state.current.startY = e.clientY;
 
-      onRotate(-dx * sensitivity, dy * sensitivity);
+      onRotate(dx * sensitivity, -dy * sensitivity);
     },
     [onRotate, sensitivity]
   );

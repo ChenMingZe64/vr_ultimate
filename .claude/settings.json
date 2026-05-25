@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd.exe /c \"winget install ngrok --accept-source-agreements --accept-package-agreements\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(where ngrok *)",
+      "Read(//c/Users/CMZ/AppData/Local/Microsoft/WinGet/**)",
+      "Bash(git rm *)",
+      "Bash(rm -rf frontend/.git)"
+    ]
+  }
+}

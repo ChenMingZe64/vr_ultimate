@@ -7,7 +7,15 @@
       "Bash(where ngrok *)",
       "Read(//c/Users/CMZ/AppData/Local/Microsoft/WinGet/**)",
       "Bash(git rm *)",
-      "Bash(rm -rf frontend/.git)"
+      "Bash(rm -rf frontend/.git)",
+      "Bash(python -c \"from PIL import Image; print\\('PIL OK'\\)\")",
+      "Bash(node -e \"require\\('sharp'\\); console.log\\('sharp OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(sleep 8 && cat \"/c/Users/CMZ/AppData/Local/Temp/claude/d--Users-CMZ-Desktop-workspace-vr_ultimate/9987b542-9f1a-4ee9-8490-197000b071f3/tasks/b54o9vj3o.output\")",
+      "Read(//c/Users/CMZ/AppData/Local/Temp/claude/d--Users-CMZ-Desktop-workspace-vr_ultimate/9987b542-9f1a-4ee9-8490-197000b071f3/tasks/**)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/panoramas/menwai.jpg)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)"
     ]
   }
 }
